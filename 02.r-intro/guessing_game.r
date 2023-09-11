@@ -1,6 +1,6 @@
 # get a random number for the user to guess
 # using the built-in function sample()
-rand <- sample(1:100, 1)
+rand <- sample(1:20, 1)
 
 # start the game
 cat("Guess a number between 1 and 20.\n")
@@ -23,3 +23,6 @@ while (guess != rand) {
 
 # if they get it right, let them know!
 cat("Congratulations!", guess, "is right!\n")
+
+
+
